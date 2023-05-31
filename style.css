@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap');
+*{
+    font-family: 'Oswaldo', "Open Sans";
+    box-sizing: border-box;
+}
+#container{
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 20px 0px black;
+    border-radius: 10px;
+    background-color: rgb(247, 110, 133);
+    color: aliceblue;
+}
+body{
+    background-color: pink;
+}
+#valor{
+    border-radius: 4px;
+    border: none;
+}
+#b1{
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: crimson;
+}
+#desc{
+    font-style: italic;
+    font-size: 15px;
+}
+
